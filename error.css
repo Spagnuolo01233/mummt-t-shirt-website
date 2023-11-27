@@ -1,0 +1,16 @@
+body{
+    background-image: url('bandiere.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-error{
+    margin-top: 155px;
+    text-shadow: 5px 5px 5px whitesmoke;
+}
+
+.home{
+    font-family: 'Nerko one';
+    font-size: 60px;
+    padding: 40px;
+}

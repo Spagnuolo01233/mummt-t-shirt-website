@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_website.css">
+    <title>mummt</title>
+</head>
+<body>
+  <!--questa è la barra iniziale del sito con titolo-->
+    <nav class="navbar my-bg sticky-top">
+        <div class="container position-relative">
+          <a class="navbar-brand float-start" href="#">
+            <img src="mummt.jpeg" alt="Bootstrap" width="100" height="100">
+          </a>
+          <h1 id="title-page" class="float-end">MUMMT</h1>
+        </div>
+    </nav>
+    <!--barra comn il pulsante con offcanvas-->
+    <div class="my-bg-SM">
+      <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+        <h1 id="title-toggle"> Collection </h1> 
+      </button> 
+        <div id="SM-bar" class="float-end">
+        <a href=""><img src="istagram.png" alt="istagram" height="50px"></a>
+        <a href=""><img src="x.png" alt="istagram" height="50px"></a>
+        <a href=""><img src="facebook.png" alt="istagram" height="50px"></a>
+        <a href=""><img src="telegram.png" alt="istagram" height="50px"></a>
+        </div>
+    </div>
+    <!--Contenuto del canvas laterale-->
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+      <div class="offcanvas-header">
+        <h5 id="title-page-scroll" class="offcanvas-title" id="staticBackdropLabel">Choose Your Style</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          <img src="modello01.png" alt="modello" width="100%">
+          <img src="modello02.png" alt="modello" width="100%">
+          <img src="modello03.png" alt="modello" width="100%">
+          <img src="modello04.png" alt="modello" width="100%">
+          <img src="modello05.png" alt="modello" width="100%">
+        </div>
+      </div>
+    </div>
+
+      <!--Prima immagine big-->
+    <div>
+      <img src="campagnaP01.png" alt="Veni,Vidi,Vici" width="100%">
+    </div>
+      <!--frase scorrimento-->
+    <div class="my-container">
+      <div class="scrolling-text">
+        EVERY DAY WITH MUMMT
+      </div>
+    </div>
+      <!--seconda immagine big-->
+    <div>
+      <img src="modelli.png" alt="modelli mummt" width="100%">
+    </div>
+      <!--barra scelta men-women-->
+    <div class="container text-center my-size">
+      <div class="row">
+        <h2 class="col">MORE MUMMT</h2>
+      </div>
+      <div class="row">
+        <div class="col"><div class="my-btn"><a href="error.html">MEN</a></div></div>
+        <div class="col"><div class="my-btn"><a href="error.html">WOMEN</a></div></div>
+      </div>
+    </div>
+    <div class="foot">
+      <div class="row text-center footer-content">
+        <div class="col text-box"><a href="error.html">news</a></div>
+        <div class="col text-box"><a href="error.html">info</a></div>
+        <div class="col text-box"><a href="error.html">help</a></div>
+      </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+/* stili della barra superiore-titolo della pagina, my-bg e tittle-page*/
+.my-bg{
+    background-color: black;
+    opacity: 0.9;
+}
+
+#title-page{
+    color: #E40100;
+    font-size: 80px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bold;
+    font-style: oblique;
+}
+
+#title-page-scroll{
+    color: #E40100;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bold;
+    font-style: oblique;
+}
+
+#title-toggle{
+    color: #E40100;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bold;
+    font-style: oblique;
+}
+
+/* css per il testo scrollimng*/
+
+.my-container{
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra orizzontalmente */
+    width: 100%;
+    height: 65px;
+    overflow: hidden;
+    position: relative;
+}
+
+.scrolling-text{
+    color: #E40100;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bold;
+    font-style: oblique;
+    position: absolute;
+    white-space: nowrap;
+    animation: scrolling-text 10s linear infinite;
+}
+
+@keyframes scrolling-text {
+    0% {
+        transform: translateX(180%); /* Inizia fuori dallo schermo a destra */
+    }
+    100% {
+        transform: translateX(-180%); /* Sposta completamente a sinistra */
+    }
+}
+
+/* bar con bottone e contenuto social media */
+
+.my-bg-SM{
+    background-image: url('bandiere.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#SM-bar{
+    padding: 10px;
+    margin-right: 80px;
+}
+
+#SM-bar a{
+    margin: auto;
+}
+
+/* css per la schermata dopo ultima immagine per scelta collezione uomo donna*/
+
+.my-size{
+    padding: 100px;
+    width: 100%;
+    height: 500px;
+    font-family: 'Nerko one';
+    font-size: 60px;
+    color: #E40100;
+}
+
+.my-btn{
+    border: 1px solid black;
+}
+
+.my-btn:hover{
+    background-color: #E40100;
+}
+
+a{
+    text-decoration: none;
+    color: #E40100;
+}
+
+.my-btn:hover a{
+    color: aliceblue;
+}
+
+/* parte del footer*/
+
+.foot{
+    width: 100%;
+    height: 500px;
+    background-image: url('bandiere.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.footer-content{
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.text-box{
+    color: whitesmoke;
+    font-size: 60px;
+    font-family: 'Nerko one';
+    margin-top: 235px;
+}
+
+.text-box a{
+    text-decoration: none;
+    color: aliceblue;
+}
